@@ -1,0 +1,422 @@
+*{
+padding:0px;
+margin:0px;
+}
+nav{
+  background-image: url('https://res.cloudinary.com/dtnuqq2ll/image/upload/v1724890343/image-hero_ykdw2l.jpg');
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+  height:500px;
+  width: 100%;
+  display:flex;
+}
+.logo{
+  padding-left:40px;
+  padding-top:20px;
+}
+.nav-list ul{
+  list-style:none;
+  display:flex;
+  gap:20px;
+  padding-left:450px;
+  padding-top:30px;
+  font-size:10px;
+}
+.nav-list a{
+  text-decoration:none;
+  color:white;
+}
+.hamburger{
+ display:none;
+}
+.testimony{
+  color: white;
+  font-size:50px;
+  font-style:monospace;
+  letter-spacing:2px;
+  position: absolute;
+  padding-top:90px;
+  padding-left:50px;
+}
+.testimony p{
+  border:1px solid white;
+  padding:10px 10px
+}
+.illustrate{
+  padding-top:150px;
+  display:flex;
+}
+.illusion-world h6{
+  text-align: center;
+  margin-bottom:15px;
+}
+.illusion img{
+  height:300px;
+  width:100%;
+  padding-left:50px;
+  align-items:center;
+}
+.illusion-world{
+  border:05px solid whitesmoke;
+  padding-top:70px;
+  padding-right:40px;
+}
+.illusion-world h6{
+  font-size:30px;
+  opacity:0.7;
+  letter-spacing:3px;
+}
+.illusion-world p{
+opacity: 0.9;
+text-align:center;
+}
+.mind{
+  display:flex;
+}
+.you{
+  font-size:30px;
+  padding-top:50px;
+  padding-left:50px;
+}
+.out button{
+
+  color:black;
+  border:1px solid black;
+  padding:10px 40px;
+}
+.out{
+  padding-left:530px;
+  padding-top:50px;
+}
+.item{
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr 1fr;
+  gap:10px;
+  padding-left:50px;
+  padding-top:100px;
+  padding-bottom:100px;
+}
+.i{
+  background-image:url('https://res.cloudinary.com/dtnuqq2ll/image/upload/v1724890338/image-deep-earth_bfb9tq.jpg');
+  height:400px;
+  width:90%
+}
+.i p{
+  color:white;
+  margin-top:340px;
+  margin-left:20px
+}
+.ii{
+  background-image:url('https://res.cloudinary.com/dtnuqq2ll/image/upload/v1724890344/image-night-arcade_aatrwx.jpg');
+  height: 400px;
+  width:90%
+}
+.ii p{
+  color:white;
+  margin-top:340px;
+  margin-left:20px;
+}
+.iii{
+  background-image:url('https://res.cloudinary.com/dtnuqq2ll/image/upload/v1724890345/image-soccer-team_igli7a.jpg');
+  height: 400px;
+  width:90%;
+}
+.iii p{
+  color:white;
+  margin-top:340px;
+  margin-left:20px;
+}
+.iv{
+background-image:url('https://res.cloudinary.com/dtnuqq2ll/image/upload/v1724890339/image-grid_ph4bgw.jpg');
+  height:400px;
+  width:90%;
+}
+.iv p{
+  color:white;
+  margin-top:340px;
+  margin-left:20px;
+}
+.v{
+  background-image:url('https://res.cloudinary.com/dtnuqq2ll/image/upload/v1724890339/image-from-above_ls2dd2.jpg');
+  height:400px;
+  width:90%
+}
+.v p{
+  color:white;
+  margin-top:340px;
+  margin-left:20px;
+}
+.vi{
+  background-image:url('https://res.cloudinary.com/dtnuqq2ll/image/upload/v1724890344/image-pocket-borealis_t24mu1.jpg');
+  height:400px;
+  width:90%;
+}
+.vi p{
+  color:white;
+  margin-top:340px;
+  margin-left:20px;
+}
+.vii{
+  background-image: url('https://res.cloudinary.com/diigc89rc/image/upload/v1724939945/image-curiosity_zbbnpl.jpg');
+  height:400px;
+  width:90%;
+}
+.vii p{
+  color:white;
+  margin-top:340px;
+  margin-left:20px;
+}
+.viii{
+  background-image:url('https://res.cloudinary.com/dtnuqq2ll/image/upload/v1724890339/image-fisheye_vhqwli.jpg');
+  height:400px;
+  width:90%;
+}
+.viii p{
+  color:white;
+  margin-top:340px;
+  margin-left:20px;
+}
+.that{
+  display:none;
+}
+.footer{
+  background-color:black;
+  height:150px;
+  width:100%;
+}
+.reach a{
+  text-decoration:none;
+  color: white;
+}
+.reach ul{
+  list-style:none;
+  gap:20px;
+  display:flex;
+  padding-top:20px;
+  padding-left:40px;
+}
+.social a{
+  text-decoration:none;
+}
+.begin{
+  display:flex;
+  padding-bottom:5px;
+}
+.social img{
+  margin:5px;
+}
+.social{
+  padding-left:500px;
+  padding-top:15px;
+}
+.end{
+  display:flex;
+}
+.copyright{
+  color:white;
+  padding-left:250px;
+  padding-top:20px;
+  opacity: 0.6;
+}
+
+
+
+
+/* Responsive styles for smartphones */
+@media (max-width: 720px){
+   nav{
+  background-image: url('https://res.cloudinary.com/diigc89rc/image/upload/v1726764110/image-hero_txc6od.jpg');
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+    height:700px;
+   }
+   .logo{
+     padding-left:5px;
+   }
+   .hamburger{
+     display:block;
+     padding-left:130px;
+     padding-top:25px;
+   }
+   .testimony{
+     padding-top:20px;
+     padding-left:10px
+   }
+   .nav-list{
+     display:none;
+   }
+   .illustrate{
+     display: grid;
+     grid-template-columns:1fr;
+     padding-bottom:50px;
+     padding-top:50px;
+   }
+   .illusion img{
+   height:300px;
+   width:80%;
+   align-items:center;
+   }
+   .illusion-world h6{
+     text-align: center;
+     margin-left:30px;
+   }
+   .illusion-world p{
+     text-align:center;
+     margin-left:30px;
+   }
+   .mind{
+     display:block;
+     text-align:center;
+   }
+   .you{
+     display: none;
+   }
+   .item{
+     display: grid;
+     grid-template-columns:1fr;
+     padding-left:30px;
+     padding-top:20px;
+   }
+   .i{
+     background-image:url('https://res.cloudinary.com/diigc89rc/image/upload/v1726764120/image-deep-earth_fgxpup.jpg');
+     background-position: center;
+     background-repeat:no-repeat;
+     background-size:cover;
+     height:150px;
+   }
+   .i p{
+     margin-top:80px;
+     margin-left:20px;
+     font-size:30px;
+   }
+   .ii {
+     background-image:url('https://res.cloudinary.com/diigc89rc/image/upload/v1726764108/image-night-arcade_ono5ce.jpg');
+     background-position: center;
+     background-repeat:no-repeat;
+     background-size:cover;
+     height:150px;
+   }
+   .ii p{
+     margin-top:80px;
+     margin-left:20px;
+     font-size:30px;
+   }
+   .iii{
+     background-image:url('https://res.cloudinary.com/diigc89rc/image/upload/v1726764108/image-soccer-team_da2u4n.jpg');
+     background-position: center;
+     background-repeat:no-repeat;
+     background-size:cover;
+     height:150px;
+   }
+   .iii p{
+     margin-top:80px;
+     margin-left:20px;
+     font-size:30px;
+   }
+   .iv{
+     background-image:url('https://res.cloudinary.com/diigc89rc/image/upload/v1726764110/image-grid_jfbg0s.jpg');
+     background-position: center;
+     background-repeat:no-repeat;
+     background-size:cover;
+     height:150px;
+   }
+   .iv p{
+     margin-top:80px;
+     margin-left:20px;
+     font-size:30px;
+   }
+   .v{
+     background-image:url('https://res.cloudinary.com/diigc89rc/image/upload/v1726764120/image-from-above_dlscza.jpg');
+     background-position: center;
+     background-repeat:no-repeat;
+     background-size:cover;
+     height:150px;
+   }
+   .v p{
+     margin-top:80px;
+     margin-left:20px;
+     font-size:30px;
+   }
+   .vi{
+     background-image:url('https://res.cloudinary.com/diigc89rc/image/upload/v1726764108/image-pocket-borealis_pmq2jm.jpg');
+     background-position: center;
+     background-repeat:no-repeat;
+     background-size:cover;
+     height:150px;
+   }
+   .vi p{
+     margin-top:80px;
+     margin-left:20px;
+     font-size:30px;
+   }
+   .vii{
+     background-image:url('https://res.cloudinary.com/diigc89rc/image/upload/v1726764121/image-curiosity_otha9m.jpg');
+     background-position: center;
+     background-repeat:no-repeat;
+     background-size:cover;
+     height:150px;
+   }
+   .vii p{
+     margin-top:80px;
+     margin-left:20px;
+     font-size:30px;
+   }
+   .viii{
+     background-image:url('https://res.cloudinary.com/diigc89rc/image/upload/v1726764121/image-fisheye_unpkxe.jpg');
+     background-position: center;
+     background-repeat:no-repeat;
+     background-size:cover;
+     height:150px;
+   }
+   .viii p{
+     margin-top:80px;
+     margin-left:20px;
+     font-size:30px;
+     padding-bottom:30px;
+   }
+   .you button{
+     color:black;
+     border:1px solid black;
+     background-color:white;
+     padding:10px 30px;
+     
+   }
+   .you {
+     display:block;
+     padding-left:100px;
+     padding-top:30px;
+   }
+   .footer{
+     height:400px;
+     width:100%;
+   }
+   .select ul{
+     padding-top:2px;
+     padding-left:150px;
+     display: grid;
+     grid-template-columns: 1fr;
+   }
+   .begin{
+     display: grid;
+     grid-template-columns:1fr;
+   }
+   .social{
+     display: grid;
+     grid-template-columns:1fr 1fr 1fr 1fr;
+     padding-left:20px;
+     padding-bottom:4px;
+   }
+   .reach {
+     padding-left:100px;
+     padding-top:20px;
+   }
+   .end{
+     display: grid;
+     grid-template-columns:1fr;
+   }
+   .copyright{
+     padding-left:40px;
+   }
+}
